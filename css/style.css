@@ -1,7 +1,7 @@
 body {
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'PT Sans Narrow', Arial, sans-serif;
@@ -15,4 +15,179 @@ body {
 .page-content-title {
   font-size: 24px;
   line-height: 30px;
+}
+
+.main-navigation li {
+    display: inline-block;
+}
+
+/*Grid*/
+
+:first-child {
+  margin-top: 0;
+}
+
+:last-child {
+  margin-bottom: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.index-logo img{
+  display: block;
+  position: relative;
+  right: -4px;
+}
+
+.features {
+  margin-bottom: 74px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 45px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.index-gallery-title {
+	margin-left: 2px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+/*Grid*/
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+/* pixel perfect background */
+.index{
+  background: url("../img/grid-temp/barbershop-index.jpg") no-repeat top center;
+}
+
+.shop{
+  background: url("../img/grid-temp/barbershop-shop.jpg") no-repeat top center;
+}
+
+.item{
+  background: url("../img/grid-temp/barbershop-item.jpg") no-repeat top center;
+}
+
+.text{
+  background: url("../img/grid-temp/barbershop-price.jpg") no-repeat top center;
+}
+/* pixel perfect background */
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  display: none;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+}
+
+body > *::before {
+  color: white;
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
 }
