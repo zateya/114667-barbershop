@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="text">
+  <body class="inner-page text"><!--Удалить класс .text-->
     <header class="main-header">
-      <div class="container">
-        <a class="inner-logo" href="index.html">
-          <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
-        </a>
+      <div class="container clearfix">
         <nav class="main-navigation">
+          <a class="inner-logo" href="index.html">
+            <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          </a>
           <ul>
             <li><a href="text.html">Информация</a></li>
             <li><a href="text.html">Новости</a></li>
@@ -34,21 +34,72 @@
           <li class="active">Прайс-лист</li>
         </ul>
       </header>
-      <div class="page-content text-page">
+      <div class="page-content services-price-page">
         <div class="page-slogan-title">Истинно мужская классика</div>
-        <div class="page-content-left">
-
-        </div><!--/page-content-left -->
-        <div class="page-content-right">
-
-        </div><!--/page-content-right -->
+        <section class="inner-about-services clearfix">
+          <div class="page-content-left">
+            <h2 class="page-content-title">
+              Мы используем только<br>
+              лучшие средства:
+            </h2>
+            <ul class="content-list">
+              <li>Baxter of California</li>
+              <li>Mr Natty</li>
+              <li>Suavecito</li>
+              <li>Malin+Goetz</li>
+            </ul>
+          </div><!--/page-content-left -->
+          <div class="page-content-right">
+            <h2 class="page-content-title">
+              Цены на услуги<br>
+              наших мастеров:
+            </h2>
+            <table class="services-table">
+              <tbody>
+                <tr>
+                  <td class="service-name">Стрижка</td>
+                  <td class="service-price">1500 р.</td>
+                </tr>
+                <tr>
+                  <td class="service-name">Стрижка бороды</td>
+                  <td class="service-price">500 р.</td>
+                </tr>
+                <tr>
+                  <td class="service-name">Накрутка усов</td>
+                  <td class="service-price">350 р.</td>
+                </tr>
+            </tbody>
+            </table>
+          </div><!--/page-content-right -->
+        </section>
+        <section class="inner-about-us clearfix">
+          <h2 class="page-content-title">
+            Несколько слов о нас:
+          </h2>
+          <div class="page-content-left about-us-content">
+            <p>
+              Наша парикмахерская занимается исключительно мужскими
+              стрижками. Стрижка каждого клиента для нас - это уникальная
+              и продуманная до мелочей работа. Мы не работаем на
+              количество, мы делаем качество.
+            </p>
+          </div>
+          <div class="page-content-right about-us-content">
+            <p>
+              Наша мастерская расположена в центре города, поэтому
+              сделать стильную стрижку можно в любое время, даже в
+              обеденный перерыв. Здесь вы можете погрузиться в удобную
+              для вас атмосферу, чувствовать себя комфортно и свободно!
+            </p>
+          </div>
+        </section>
       </div><!--/page-content -->
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
         </section>

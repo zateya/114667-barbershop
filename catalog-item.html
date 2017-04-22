@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="item">
+  <body class="inner-page item"><!--Удалить класс .item-->
     <header class="main-header">
-      <div class="container">
-        <a class="inner-logo" href="index.html">
-          <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
-        </a>
+      <div class="container clearfix">
         <nav class="main-navigation">
+          <a class="inner-logo" href="index.html">
+            <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          </a>
           <ul>
             <li><a href="text.html">Информация</a></li>
             <li><a href="text.html">Новости</a></li>
@@ -36,26 +36,24 @@
           <li class="active">Набор для путешествий «Baxter of California»</li>
         </ul>
       </header>
-      <div class="page-content product-page">
-        <div class="page-content-left">
-          <section class="product-gallery">
-            <figure class="large-photo">
-              <img src="img/product-3b.jpg" alt="Набор для путешествий «Baxter of California»" width="460" height="498">
-            </figure>
-            <ul class="preview-photos">
-              <li>
-                <img src="img/product-1s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
-              </li>
-              <li>
-                <img src="img/product-2s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
-              </li>
-              <li class="active">
-                <img src="img/product-3s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
-              </li>
-            </ul>
-          </section><!--/product-gallery -->
-        </div><!--/page-content-left -->
-        <div class="page-content-right">
+      <div class="page-content product-page clearfix">
+        <div class="product-content-left">
+            <figure class="product-gallery">
+              <img class="product-main-photo" src="img/product-3b.jpg" alt="Набор для путешествий «Baxter of California»" width="460" height="498">
+              <ul class="product-preview">
+                <li class="product-preview-item">
+                  <img class="product-preview-photo" src="img/product-1s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
+                </li>
+                <li class="product-preview-item">
+                  <img class="product-preview-photo" src="img/product-2s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
+                </li>
+                <li class="product-preview-item">
+                  <img class="product-preview-photo" src="img/product-3s.jpg" alt="Набор для путешествий «Baxter of California»" width="140" height="149">
+                </li>
+              </ul>
+            </figure><!--/product-gallery -->
+        </div><!--/product-content-left -->
+        <div class="product-content-right">
           <section class="product-description">
             <div class="availability-code">
               <div class="product-availability">есть в наличии</div>
@@ -71,7 +69,7 @@
           </section>
           <section class="product-offer">
             <b class="product-price">3 900 руб.</b>
-            <button type="button" class="btn">Купить</button>
+            <a class="btn" href="#">Купить</a>
           </section>
           <section class="product-composition">
             <h2 class="page-content-title">В набор входят:</h2>
@@ -83,14 +81,14 @@
               <li>Удобная кожаная косметичка</li>
             </ul>
           </section>
-        </div><!--/page-content-right -->
+        </div><!--/product-content-right -->
       </div><!--/page-content -->
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
         </section>
