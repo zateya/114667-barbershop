@@ -457,9 +457,42 @@ body {
   max-width: 385px;
 }
 
-
 /*END Text Page*/
-
 /*END Inner Pages*/
-
 /*END Grid*/
+
+/*Grid Styles*/
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  display: none;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+}
+
+body > *::before {
+  color: white;
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+}
