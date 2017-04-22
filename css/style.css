@@ -52,7 +52,7 @@ body {
   line-height: 30px;
 }
 
-.index-content h2 {
+.index-content-title {
   margin-bottom: 20px;
 }
 
@@ -463,41 +463,3 @@ body {
 /*END Inner Pages*/
 
 /*END Grid*/
-
-/*======================================
- Системное оформление - не изменять
-=======================================*/
-
-body > *,
-body > * > *,
-body > * > * > * {
-  position: relative;
-}
-
-body > *::before,
-body > * > *::before,
-body > * > * > *::before {
-  display: none;
-}
-
-body > * > * > *::before {
-  top: 0;
-  left: 0;
-}
-
-body > * {
-  background: rgba(0, 128, 0, 0.2);
-}
-
-body > *::before {
-  color: white;
-  background: green;
-}
-
-body > * > * {
-  background: rgba(255, 45, 82, 0.2);
-}
-
-body > * > * > * {
-  background: rgba(234, 255, 45, 0.2);
-}
