@@ -277,7 +277,6 @@ body {
 }
 
 .products-item {
-  box-sizing: border-box;
   width: 220px;
   min-height: 286px;
   display: inline-block;
