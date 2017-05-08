@@ -666,7 +666,8 @@ input[type="checkbox"]:checked + .filter-indicator::after {
   position: absolute;
   top: 50%;
   margin-top: -1px;
-  left: 0px;
+  left: 50%;
+  margin-left: -8px;
   width: 16px;
   height: 2px;
   background-color: #000;
@@ -1220,7 +1221,7 @@ input[type="radio"]:disabled + .filter-indicator {
   height: 574px;
   margin-top: -287px;
   margin-left: -390px;
-  background: #e9e5dc url("../img/map.png");
+  background: #e9e5dc url("../img/map.png") no-repeat top left;
   border: 7px solid white;
   -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
           box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
