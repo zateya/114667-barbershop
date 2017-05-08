@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Средства для ухода - Каталог товаров Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -35,7 +36,7 @@
           <li class="active">Средства для ухода</li>
         </ul>
       </header>
-      <div class="page-content catalog-page clearfix">
+      <div class="page-content columns-layout catalog-page">
         <aside class="page-content-sidebar">
           <form action="#" class="catalog-filters" method="get">
             <div class="filters-fieldset">
@@ -43,27 +44,33 @@
               <div class="filters-list">
                 <div class="filters-row">
                   <input type="checkbox" name="brand1" id="brand[1]" checked>
-                  <label for="brand[1]">Baxter of California</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[1]">Baxter of California</label>
                 </div>
                 <div class="filters-row">
                   <input type="checkbox" name="brand2" id="brand[2]">
-                  <label for="brand[2]">Mr Natty</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[2]">Mr Natty</label>
                 </div>
                 <div class="filters-row">
                   <input type="checkbox" name="brand3" id="brand[3]" checked>
-                  <label for="brand[3]">Suavecito</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[3]">Suavecito</label>
                 </div>
                 <div class="filters-row">
                   <input type="checkbox" name="brand4" id="brand[4]">
-                  <label for="brand[4]">Malin+Goetz</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[4]">Malin+Goetz</label>
                 </div>
                 <div class="filters-row">
                   <input type="checkbox" name="brand5" id="brand[5]">
-                  <label for="brand[5]">Murray’s</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[5]">Murray’s</label>
                 </div>
                 <div class="filters-row">
                   <input type="checkbox" name="brand6" id="brand[6]" checked>
-                  <label for="brand[6]">American Crew</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="brand[6]">American Crew</label>
                 </div>
               </div><!--/filters-list -->
             </div><!--/filters-fieldset -->
@@ -72,19 +79,22 @@
               <div class="filters-list">
                 <div class="filters-row">
                   <input type="radio" name="category" value="category1" id="category[1]">
-                  <label for="category[1]">Бритвенные принадлежности</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="category[1]">Бритвенные принадлежности</label>
                 </div>
                 <div class="filters-row">
                   <input type="radio" name="category" value="category2" id="category[2]" checked>
-                  <label for="category[2]">Средства для ухода</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="category[2]">Средства для ухода</label>
                 </div>
                 <div class="filters-row">
                   <input type="radio" name="category" value="category3" id="category[3]">
-                  <label for="category[3]">Аксессуары</label>
+                  <span class="filter-indicator"></span>
+                  <label class="filter-label" for="category[3]">Аксессуары</label>
                 </div>
               </div><!--/filters-list -->
             </div><!--/filters-fieldset -->
-            <button type="submit" class="btn">Показать</a>
+            <button type="submit" class="btn filters-btn">Показать</a>
           </form><!--/catalog-filters form -->
         </aside><!--/page-content-sidebar -->
         <div class="page-content-main">
@@ -97,61 +107,61 @@
                 </h2>
               </a>
               <div class="product-offer">
-                <b class="product-price">500 руб.</b>
+                <b class="product-price">2 900 руб.</b>
                 <a class="btn" href="#">Купить</a>
               </div>
             </article>
             <article class="products-item">
               <a class="product-link" class="product-link" href="catalog-item.html">
-                <img src="img/catalog-2.jpg" alt="Увлажняющий кондиционер «Baxter of California»" width="220" height="165">
+                <img class="product-photo" src="img/catalog-2.jpg" alt="Увлажняющий кондиционер «Baxter of California»" width="220" height="165">
                 <h2 class="product-name" href="catalog-item.html">
                   Увлажняющий кондиционер <span class="product-brand">«Baxter of California»</span>
                 </h2>
               </a>
               <div class="product-offer">
-                <b class="product-price">500 руб.</b>
+                <b class="product-price">750 руб.</b>
                 <a class="btn" href="#">Купить</a>
               </div>
             </article>
             <article class="products-item">
               <a class="product-link" href="catalog-item.html">
-                <img src="img/catalog-3.jpg" alt="Гель для волос «Suavecito»" width="220" height="165">
+                <img class="product-photo" src="img/catalog-3.jpg" alt="Гель для волос «Suavecito»" width="220" height="165">
                 <h2 class="product-name" href="catalog-item.html">
                   Гель для волос <span class="product-brand">«Suavecito»</span>
                 </h2>
               </a>
               <div class="product-offer">
-                <b class="product-price">500 руб.</b>
+                <b class="product-price">290 руб.</b>
                 <a class="btn" href="#">Купить</a>
               </div>
             </article>
             <article class="products-item">
               <a class="product-link" href="catalog-item.html">
-                <img src="img/catalog-4.jpg" alt="Глина для укладки волос «American Сrew»" width="220" height="165">
+                <img class="product-photo" src="img/catalog-4.jpg" alt="Глина для укладки волос «American Сrew»" width="220" height="165">
                 <h2 class="product-name" href="catalog-item.html">
                   Глина для укладки волос <span class="product-brand">«American Сrew»</span>
                 </h2>
               </a>
               <div class="product-offer">
-                <b class="product-price">500 руб.</b>
+                <b class="product-price">300 руб.</b>
                 <a class="btn" href="#">Купить</a>
               </div>
             </article>
             <article class="products-item">
               <a class="product-link" href="catalog-item.html">
-                <img src="img/catalog-5.jpg" alt="Гель для волос «American Сrew»" width="220" height="165">
+                <img class="product-photo" src="img/catalog-5.jpg" alt="Гель для волос «American Сrew»" width="220" height="165">
                 <h2 class="product-name" href="catalog-item.html">
                   Гель для волос <span class="product-brand">«American Сrew»</span>
                 </h2>
               </a>
               <div class="product-offer">
-                <b class="product-price">500 руб.</b>
+                <b class="product-price">3 900 руб.</b>
                 <a class="btn" href="#">Купить</a>
               </div>
             </article>
             <article class="products-item">
               <a class="product-link" href="catalog-item.html">
-                <img src="img/catalog-6.jpg" alt="Набор для бритья «Baxter of California»" width="220" height="165">
+                <img class="product-photo" src="img/catalog-6.jpg" alt="Набор для бритья «Baxter of California»" width="220" height="165">
                 <h2 class="product-name" href="catalog-item.html">
                   Набор для бритья <span class="product-brand">«Baxter of California»</span>
                 </h2>
@@ -187,7 +197,7 @@
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          <a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
         </section>
       </div>
     </footer>
