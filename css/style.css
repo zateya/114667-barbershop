@@ -653,6 +653,7 @@ input[type="radio"] + .filter-indicator {
   width: 20px;
   height: 20px;
   border: 2px solid #000;
+  background-color: #f9f6f3;
 }
 
 input[type="radio"] + .filter-indicator {
@@ -1381,6 +1382,7 @@ input[type="radio"]:disabled + .filter-indicator {
   width: 20px;
   height: 20px;
   border: 2px solid #000000;
+  background-color: #f9f6f3;
 }
 
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
