@@ -1388,7 +1388,7 @@ input[type="radio"]:disabled + .filter-indicator {
   content: "";
   position: absolute;
   top: 7px;
-  left: 0px;
+  left: 0.5px;
   width: 16px;
   height: 2px;
   background-color: #000000;
