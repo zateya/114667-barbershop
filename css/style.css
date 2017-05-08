@@ -320,9 +320,10 @@ body {
   width: 140px;
   margin-bottom: 20px;
   padding: 8px 15px 7px;
-  font: inherit;
-  color: inherit;
-  text-transform: inherit;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
   background-color: #f9f6f3;
   border: 2px solid #000000;
 }
