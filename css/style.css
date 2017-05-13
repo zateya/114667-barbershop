@@ -292,9 +292,11 @@ a:hover {
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  outline: none;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #663d15;
 }
 
