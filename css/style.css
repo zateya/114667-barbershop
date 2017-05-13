@@ -976,7 +976,7 @@ input[type="radio"]:disabled + .filter-indicator {
 
 .inner-content .content-link {
   color: #000;
-  text-decoration: underline; /* Code for Firefox */
+  text-decoration: underline;
   -webkit-text-decoration-color: #9e9c9a;
           text-decoration-color: #9e9c9a;
 }
