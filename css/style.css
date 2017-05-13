@@ -1296,7 +1296,6 @@ input[type="radio"]:disabled + .filter-indicator {
 .modal-content .login-form {
   margin-top: 15px;
   margin-bottom: 10px;
-  outline: none;
 }
 
 .login-form input[type="text"],
@@ -1315,6 +1314,7 @@ input[type="radio"]:disabled + .filter-indicator {
   text-transform: uppercase;
   background-color: #f9f6f3;
   border: 2px solid #000000;
+  outline: none;
 }
 
 .login-form input[type="text"]::-webkit-input-placeholder,
